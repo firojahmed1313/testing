@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Greet = () => {
+const Greet = (props) => {
   return (
-    <div>Greet</div>
+    <div>Greet {props.name}</div>
   )
 }
 
