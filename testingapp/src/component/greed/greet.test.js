@@ -11,6 +11,7 @@ __test__
 -test.js/.tsx
 */
 
+//https://testing-library.com/docs/queries/about/
 
 import { render, screen } from '@testing-library/react';
 import Greet from './Greet';
